@@ -1,6 +1,6 @@
-from call import call
-from filter import filter
-from price import price
+from scr.call import call
+from scr.filter import filter
+from scr.price import price
 
 call()
 items = filter()
