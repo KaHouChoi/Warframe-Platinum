@@ -1,4 +1,6 @@
 import requests
 
 response = requests.get("https://api.warframe.market/v1/items") 
-print(response.json())
+
+with open("items.txt", "w") as f:
+  print(response.json(), file=f)
