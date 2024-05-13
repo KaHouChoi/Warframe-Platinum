@@ -5,3 +5,4 @@ from scr.price import price
 call()
 items = filter()
 items = price(items)
+    
